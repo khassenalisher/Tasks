@@ -64,7 +64,8 @@ namespace Task1
 
             Console.WriteLine(max);
             Console.WriteLine(min);
-            r.Close(); // закрываем поток
+            r.Close();
+            f1.Close(); // закрываем поток
             Console.ReadKey();
         }
     }

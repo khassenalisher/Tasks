@@ -64,6 +64,11 @@ namespace Task2
                     l = "";
                 }
             }
+            //Для проверки конечного числа
+            if (p < min)
+                min = p;
+            r.Close();
+            f1.Close();
             Console.WriteLine(min);
             Console.ReadKey();
         }
