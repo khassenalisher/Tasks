@@ -13,7 +13,7 @@ namespace Task1
         static void Main(string[] args)
         {
             //файловый поток
-            FileStream f1 = new FileStream(@"C:\Users\User\Documents\Visual Studio 2015\Projects\Task1W2\Task1W2\MinMax.txt", FileMode.Open);
+            FileStream f1 = new FileStream(@"C:\Users\User\Desktop\Labs\Week2\Task1.txt", FileMode.Open);
             //созадем потоковый читатель и связываем с файловым потоком
             StreamReader r = new StreamReader(f1);
             string a = r.ReadLine();
